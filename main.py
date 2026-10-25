@@ -22,7 +22,7 @@ try:
     print(f"Height:", height)
     print(f"Weight:", weight)
 
-    for attempt in range():
+    for attempt in range(3):
         guess = input("Guess the Pokemon: ").strip().lower()
 
         if guess not in pokemon_list:
